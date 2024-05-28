@@ -16,7 +16,10 @@ Learn and play with GitHub Copilot when working on Java projects
 ## First Interaction
 
 Copilot Panel greets you and then propose to try Chat panel.
-There you can ask just one question, so provide all needed context in one message.
+There you can ask just one question, so provide all needed context in one message:
+
+![image](resources/Copilot-Chat.PNG)
+
 Based on question Copilot provides suggestion and then names conversation.
 There is also Conversation History tab, that doesn't have any information yet.
 Copilot promised that it will be populated once I start writing code and got suggestions.
