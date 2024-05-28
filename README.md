@@ -1,6 +1,6 @@
 # GL-GitHub-Copilot-for-Java-Demo
 
-Learn and play with GitHub Copilot when working on Java and Spring projects
+Learn and play with GitHub Copilot when working on Java projects
 
 ## Tech Stack
 
@@ -15,15 +15,22 @@ Learn and play with GitHub Copilot when working on Java and Spring projects
 
 ## First Interaction
 
-1. Copilot Panel greets you and then propose to try Chat panel.
-   There you can ask just one question, so provide all needed context in one message.
-   Based on question Copilot provides suggestion and then names conversation.
-   There is also Conversation History tab, that doesn't have any information yet.
-   Copilot promised that it will be populated once I start writing code and got suggestions.
-   For security reasons, this tab doesn't store data from conversation Chat.
+Copilot Panel greets you and then propose to try Chat panel.
+There you can ask just one question, so provide all needed context in one message.
+Based on question Copilot provides suggestion and then names conversation.
+There is also Conversation History tab, that doesn't have any information yet.
+Copilot promised that it will be populated once I start writing code and got suggestions.
+For security reasons, this tab doesn't store data from conversation Chat.
 
-1. Writing this text I got suggestions and accepted them by using `Tab` key or `ctrl` + `alt` + `Right` combination for entire text block
-   and combination `ctrl` + `Right` for one word.
+Such behavior is different when you work with your code and ask Copilot for help. 
+In that case, Copilot has more context, and it's easier to use prompts.
+
+However, even at that point Copilot started helping. 
+Writing this text I got suggestions and accepted them by using `Tab` key 
+or `ctrl` + `alt` + `Right` combination for entire text block
+and combination `ctrl` + `Right` for one word.
+
+## Java Demo
 
 There are default key bindings for Copilot, but you can change them in IntelliJ IDEA settings:
 
@@ -31,9 +38,7 @@ Navigate `Settings -> Keymap -> Main Menu -> Tools -> GitHub Copilot`
 
 ![image](resources/Key-Map.PNG)
 
-## Java Demo
-
-1. We provide some context for Copilot by creating package `utils` and class named `MathUtils`.
+1. Working from scratch, let's provide some context for Copilot by creating package `utils` and class named `MathUtils`.
    Just by start typing `public` keyword, Copilot suggests to create method `add` with two parameters:
 
    ![](resources/Add-Method.PNG)
@@ -63,7 +68,7 @@ Navigate `Settings -> Keymap -> Main Menu -> Tools -> GitHub Copilot`
    ![image](resources/Compilation-Error.PNG)
 
 1. Let's try to refactor existing code. 
-   We have method that prints params in wrong order.
+   We can have method that prints params in wrong order.
    We can ask Copilot to fix it by using context menu, `Right Mouse Click -> GitHub Copilot -> Reference file in Chat`.
    In chat ask for needed action:
 
